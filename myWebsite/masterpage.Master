@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.Master.cs" Inherits="myWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Michael Watters</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <!--placeholder-->
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="headerBar">
+
+            <asp:Label class="pageTitle" runat="server" Text="2018, Michael Watters"></asp:Label>
+
+        </div><!--headerBar-->
+        <div class="containerAndMenu">
+            <div class="menuBar">
+                <asp:Button ID="btnHomePage" CssClass="navButton" runat="server" Text="Homepage" />
+                <asp:Button ID="btnProjects" CssClass="navButton" runat="server" Text="Projects" />
+                <asp:Button ID="btnContact" CssClass="navButton" runat="server" Text="Contact" />
+            </div><!--menubar-->
+
+            <div class="container">
+
+                <asp:ContentPlaceHolder ID="content" runat="server">
+
+                </asp:ContentPlaceHolder>
+
+
+            </div><!--container-->
+
+        </div><!--containerAndMenu-->
+        <div class="footerBar">
+            <asp:Label ID="footer" runat="server" Text="2018, Michael Watters."></asp:Label>
+        </div><!--footerbar-->
+
+    </form>
+</body>
+</html>

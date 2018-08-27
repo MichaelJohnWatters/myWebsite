@@ -1,0 +1,38 @@
+﻿
+
+.headerBar {
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+.footerBar {
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+.menuBar {
+    float:right;
+    border: 5px solid blue;
+    width:60%;
+    height:100px;
+    align-content:center;
+}
+
+.container {
+    width:100%;
+    min-height:600px;
+    border: 5px solid green;
+}
+
+.navButton {
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    width:120px;
+    margin-left:20px;
+}
+
+.navButtons:hover {
+}

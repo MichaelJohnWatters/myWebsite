@@ -1,0 +1,43 @@
+﻿
+.headerBar {
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+}
+.footerBar {
+    height: 100px;
+    width: 100%;
+    border: 5px solid black;
+}
+.menuBar {
+    border: 5px solid blue;
+    height:auto;
+    width: 10%;
+    float: left;
+}
+.containerAndMenu {
+    height: auto;
+    width: 100%;
+    border: 5px solid red;
+    background-color:dimgrey;
+}
+.container {
+    margin-left:10%;
+    width: 89%;
+    min-height: 600px;
+    border: 5px solid green;
+    background-color:white;
+}
+.navButton {
+    float: left;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.navButtons:hover {
+    
+}
+
+
+
